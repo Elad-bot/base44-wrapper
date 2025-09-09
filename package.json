@@ -1,0 +1,17 @@
+{
+  "name": "base44-wrapper",
+  "version": "1.0.0",
+  "description": "Capacitor wrapper for Base44 app with OneSignal push",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"No web build needed, using remote URL\"",
+    "test": "echo \"No tests\" && exit 0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/core": "^6.1.2",
+    "onesignal-cordova-plugin": "^3.0.0"
+  }
+}

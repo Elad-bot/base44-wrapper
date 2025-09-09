@@ -1,0 +1,9 @@
+{
+  "appId": "com.yourcompany.fyndo",
+  "appName": "Fyndo",
+  "webDir": "dist",
+  "server": { 
+    "url": "https://fyndo-copy-8cc4e69d.base44.app", 
+    "cleartext": false 
+  }
+}
