@@ -1,9 +1,9 @@
 name: Android Debug Build
 
 on:
-  workflow_dispatch: {}   # run manually
+  workflow_dispatch: {}         # run manually
   push:
-    branches: [ main ]    # optional: auto-build on push to main
+    branches: [ main ]          # auto-run on push to main (optional)
 
 jobs:
   build:
@@ -13,6 +13,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Node is needed to run "npx cap sync android"
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+
+      - name: Install npm dependencies
+        run: npm ci || npm install
+
+      # Generate native plugin files (this fixes the missing cordova.variables.gradle)
+      - name: Capacitor sync
+        run: |
+          mkdir -p android/app/src/main/assets/public
+          npx cap sync android
+          echo "List generated folder:"
+          ls -la android/capacitor-cordova-android-plugins || true
+
+      # Java + Android SDK for Gradle build
       - name: Set up Java
         uses: actions/setup-java@v4
         with:
