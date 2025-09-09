@@ -1,9 +1,6 @@
 {
-  "appId": "com.yourcompany.fyndo",
+  "appId": "com.eperom_ep.fyndo",
   "appName": "Fyndo",
   "webDir": "dist",
-  "server": { 
-    "url": "https://fyndo-copy-8cc4e69d.base44.app", 
-    "cleartext": false 
-  }
+  "server": { "url": "https://fyndo-copy-8cc4e69d.base44.app", "cleartext": false }
 }

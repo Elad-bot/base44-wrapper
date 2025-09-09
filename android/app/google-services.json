@@ -7,6 +7,25 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:217294248214:android:a54f3b68c6d30591905837",
+        "android_client_info": {
+          "package_name": "com.eperom_ep.fyndo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtTKZfx2BbIg1x5_0ctJCUM8i5pzY0u_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:217294248214:android:de14009149acf381905837",
         "android_client_info": {
           "package_name": "com.yourcompany.fyndo"
