@@ -1,4 +1,4 @@
-package com.yourcompany.fyndo;
+package com.eperom_ep.fyndo;
 
 import com.getcapacitor.BridgeActivity;
 
