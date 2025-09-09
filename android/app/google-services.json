@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "217294248214",
+    "project_id": "fyndo-badc9",
+    "storage_bucket": "fyndo-badc9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217294248214:android:de14009149acf381905837",
+        "android_client_info": {
+          "package_name": "com.yourcompany.fyndo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtTKZfx2BbIg1x5_0ctJCUM8i5pzY0u_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
